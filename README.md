@@ -63,15 +63,6 @@ Outputs: plots showing KL per-dimension, reconstructions, and optionally a grid 
 - **Loss**: reconstruction loss (e.g., BCE or MSE) + KL divergence regularizer.
 - **Sampling & Generation**: sample from prior N(0,I) and decode to generate new digit images.
 
-## Data
-
-- MNIST raw files are expected under `data/MNIST/raw/` (this repo keeps the raw files checked-in or will download automatically depending on `main.py`).
-- If you want to ignore all dataset files locally, update `.gitignore` to include `data/` and remove already-tracked files from git with:
-
-```bash
-git rm -r --cached data/MNIST
-git commit -m "chore: stop tracking data/MNIST"
-```
 
 ## 📈 Example Commands
 
@@ -85,13 +76,6 @@ Visualize KL and reconstructions:
 python KL_visualize.py
 ```
 
-## 📜 License & Notes
-
-- This example is intended for educational purposes. Adapt model sizes and hyperparameters for research or production.
-
----
-
-If you'd like, I can also add a brief tutorial section showing typical hyperparameters and an example training log.
 
 
 
