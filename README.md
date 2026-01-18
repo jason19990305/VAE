@@ -77,12 +77,12 @@ git commit -m "chore: stop tracking data/MNIST"
 
 Train quickly (example):
 ```bash
-python main.py --epochs 20 --batch-size 128
+python main.py
 ```
 
 Visualize KL and reconstructions:
 ```bash
-python KL_visualize.py --checkpoint checkpoints/model_latest.pth
+python KL_visualize.py
 ```
 
 ## 📜 License & Notes
