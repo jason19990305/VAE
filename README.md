@@ -79,7 +79,7 @@ python KL_visualize.py
 
 ## Result
 
-<img width="1024" height="1011" alt="image" src="https://github.com/user-attachments/assets/738fa88c-190f-40e6-98a5-e68e4618db9a" />
+<img width="512" height="505" alt="image" src="https://github.com/user-attachments/assets/738fa88c-190f-40e6-98a5-e68e4618db9a" />
 
 
 
